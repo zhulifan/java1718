@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+
+        <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/echarts-all.js"></script>
+    </head>
+    <body class="clearfix">
+
+            <div class='kb kb-box-border-bottom-left kb-box-border-bottom-right'>
+                <div class='kb-box  kb-box-border-top-left kb-box-border-top-right'>
+                    <!-- 头部 -->
+                    <header></header>
+                    <!-- 内容部分 -->
+                    <section>
+                            <div class="">
+                                <div class="hrw-body hrw-body-style1 clearfix">
+                    
+                                    <div class="hrw-body-l list-style1 f_left poa">
+                                        <div class="hrw-body-title">
+                                            <h2 >订单状态</h2>
+                                        </div>
+                                        <div class="table-bg">
+                                            <ul class="list-nav" id="list-nav1">
+                                                <li class="active">进行中 <span class="list-nav-line"></span></li>
+                                                <li>已完成 <span class="list-nav-line"></span></li>
+                                                <li>已拖期 <span class="list-nav-line"></span></li>
+                                            </ul>
+                                            <table class="hrw-table" id="GlobalUserOrders">
+                                                <thead>
+                                                <tr>
+                                                    <th style="width:15%">销售订单</th>
+                                                    <th style="width:15%">客户</th>
+                                                    <th style="width:15%">规格颜色</th>
+                                                    <th style="width:15%">订单数量</th>
+                                                    <th style="width:15%">订单类型</th>
+                                                    <th style="width:15%">交货日期</th>
+                                                    <th>状态</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                        <div class="hrw-body-map">
+                                                <div class="aperture">
+                                                    <div class="shan"></div>
+                                                    <div class="shan1"></div>
+                                                    <div class="shan2"></div>
+                                                    <div class="shan3"></div>
+                                                    <div class="shan4"></div>
+                                                </div>
+                                                <div class="city-name city-name1">
+                                                    <a href="./LuggageTag1.html">北京</a>
+                                                </div>
+                                                <div class="city-name city-name2">
+                                                    <a href="javascript:void(0)">德国</a>
+                                                    <i class="map-mark"></i>
+                                                </div>
+                                                <div class="hrw-chart-pie">
+                                                    <h5>当前执行订单</h5>
+                                                    <div  class="orderCode"  id="orderCode"></div>
+                                                    <h6>订单当日完成状态<span id="jdtzhi"></span></h6>
+                                                    <div class="hrw-progressBar">
+                                                        <div class="hrw-jdt" id="jdt">
+                                                            <div class="hrw-jdt-dian"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hrw-chart-pie-line"></div>
+                                                </div>
+                                                <div class="foot-title">生产计划当日完成情况</div>
+                                            </div>
+                                    </div>
+
+                                    <div class="hrw-body-r list-style1 f_right">
+                                        <div class="hrw-body-title">
+                                            <h2 >智能排产</h2>
+                                        </div>
+                                        <div class="table-bg">
+                                            <ul class="list-nav" id="list-nav2">
+                                                <li class="active">自制<span class="list-nav-line"></span></li>
+                                                <li>外协<span class="list-nav-line"></span></li>
+                                                <li>外购<span class="list-nav-line"></span></li>
+                                            </ul>
+                                            <div class="table-height">
+                                                <table class="hrw-table" id="GIntelligentScheduling">
+                                                        <thead>
+                                                        <tr>
+                                                            <th style="width:15%">销售订单</th>
+                                                            <th style="width:15%">生产编号</th>
+                                                            <th style="width:15%">型号规格</th>
+                                                            <th style="width:15%">生产工厂</th>
+                                                            <th style="width:15%">订单数量</th>
+                                                            <th style="width:15%">计划时间</th>
+                                                            <th>状态</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
+
+                                        </div>
+                    
+                                    </div>
+
+                                </div>
+                            </div>
+                    </section>
+                </div>
+            </div>
+            <script src="js/main.js"></script>
+    </body>
+</html>
